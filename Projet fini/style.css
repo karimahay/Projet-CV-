@@ -1,0 +1,99 @@
+/*Dimensions global de la page*/
+.page{
+	width : 850px;
+	margin: auto;
+}
+/*police aplliquée a toute la page*/
+body{
+	font-family: "Times New Roman", Times, serif;
+}
+/*dimensions*/
+html, body, .page {
+	height : 100%
+}
+/*dimensions et couleur de la barre header*/
+header{
+	width           : 100%;
+	height          : 160px;
+	background-color: #2F4858;
+}
+/*positionnement de l'image*/
+img{
+	float      : left;
+	margin-left: 30px;
+	margin-top : 27px;
+}
+/*positionnement du texte au centre du header et a coter de la photo*/
+.titre{
+	text-align : center;
+	color      : white;
+	padding-top: 1px;
+}
+
+
+/*positionnement, définition et couleur du corps de la page*/
+.droite{
+	width           : 70,1%;
+	height          : 70%;
+	background-color:  #FAF8F8;
+	margin-top      : -21px;
+	margin-left     : 253px;
+}
+/*positionnement des balises "h1" contenues dans la div "droite"*/
+.droite > h1{
+	text-align: center;
+}
+/*taille de la police des balises "h2" contenue dans la div "droite"*/
+.droite h2{
+	font-size: 20px;	
+ }
+/*taille de la police des paragraphes contenues dans la div "droite"*/
+.droite p{
+	font-size: 16px;
+}
+/*positionnement de la div "bloc"*/
+.bloc{
+	margin-left: 30px;
+}
+/*taille de la police des "h2" contenue dans la div "bloc"*/
+.bloc h2{
+	font-size: 22px;
+}
+/*positionnement, définition et couleur de la colonne de gauche*/
+.gauche{
+	width           : 250px;
+	height          : 69%;
+	background-color:#86BBD8;
+	float           : left;
+	font-size       : 15px;
+	border-top      : 4px solid #9FE694;
+	margin-top      : -0,95px;
+}
+/*positionnement des paragraphes contenues dans la div "gauche"*/
+.gauche p{
+	margin-left: 50px;
+	line-height: 150%;
+}
+/*paramètres de style appliqués aux balies "h4" contenus dans la div "gauche"*/
+.gauche h4{
+	margin-left: 10px;
+	color      : #3A5768;
+}
+
+/*alégement de la police pour les balises "h4"*/
+h4{
+	font-weight: lighter;
+}
+/*définition de la taille des balises "h2"*/
+h2{
+	font-size:30px;
+}
+/*ici, ont stylise notre balise "hr"*/
+hr{
+	padding     : 1px;
+	background  : #9FE694;
+	border      : 0;
+	margin-right: 300px;
+	margin-left : 3px;
+	margin-top  : -16px;
+}
